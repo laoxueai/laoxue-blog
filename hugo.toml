@@ -45,6 +45,10 @@ Content = "记录 AI、投资、商业、健康、家庭与长期复利。"
 name = "github"
 url = "https://github.com/laoxueai"
 
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/laoxue_eth"
+
 [[menu.main]]
 identifier = "posts"
 name = "文章"
