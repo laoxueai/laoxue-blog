@@ -25,6 +25,12 @@ description = "记录 AI、投资、商业、健康、家庭与长期复利。"
 keywords = ["老薛", "AI", "投资", "商业", "加密", "晨间日记", "长期主义"]
 author = "老薛"
 defaultTheme = "auto"
+images = ["/avatar.png"]
+
+[params.label]
+icon = "/avatar.png"
+iconHeight = 28
+text = "老薛的财富之旅"
 ShowReadingTime = true
 ShowShareButtons = false
 ShowPostNavLinks = true
