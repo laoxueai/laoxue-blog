@@ -52,16 +52,8 @@ git commit -m "init: Hugo blog scaffold"
 
 ## 域名建议
 
-建议二选一：
+当前线上地址：
 
-1. **主站直接做博客**：`laoxue.ai`
-   - 适合你把博客当作个人官网
-2. **子域名单独做博客**：`blog.laoxue.ai`
-   - 更灵活，以后主域还能做首页/名片站/导航站
+- `https://blog.laoxue.ai`
 
-如果没有强烈偏好，我建议你：
-
-- `laoxue.ai` 先做一个极简主页或后续再做
-- **博客先上 `blog.laoxue.ai`**
-
-这样不容易把主域用死。
+主域 `laoxue.ai` 建议后续再做个人主页/导航页，不急着和博客混在一起。
