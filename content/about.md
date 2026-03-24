@@ -2,7 +2,7 @@
 title: "About"
 date: 2026-03-24T13:22:00+08:00
 draft: false
-summary: "关于老薛"
+summary: "关于老薛与这趟财富之旅"
 ---
 
 老薛，投资人、经营者、长期主义者。

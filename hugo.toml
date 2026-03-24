@@ -1,7 +1,7 @@
 baseURL = "https://blog.laoxue.ai/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
-title = "老薛｜长期主义笔记"
+title = "老薛的财富之旅"
 theme = "PaperMod"
 pagination.pagerSize = 10
 enableRobotsTXT = true
@@ -20,8 +20,8 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "老薛"
-description = "老薛的长期主义笔记：AI、投资、商业、健康、家庭与人生复利。"
+title = "老薛的财富之旅"
+description = "老薛的财富之旅：AI、投资、商业、健康、家庭与长期复利。"
 keywords = ["老薛", "AI", "投资", "商业", "加密", "晨间日记", "长期主义"]
 author = "老薛"
 defaultTheme = "auto"
@@ -38,8 +38,8 @@ comments = false
 mainSections = ["posts"]
 
 [params.homeInfoParams]
-Title = "老薛｜长期主义者的公开笔记"
-Content = "我关注 AI、投资、商业、健康、家庭与长期复利。这里不写正确的废话，只记录真正影响判断和行动的东西。"
+Title = "老薛的财富之旅"
+Content = "记录 AI、投资、商业、健康、家庭与长期复利。不是写热闹，而是持续沉淀能改变财富与人生轨迹的判断。"
 
 [[params.socialIcons]]
 name = "github"
