@@ -71,6 +71,15 @@ def first_nonempty_line(body):
     return ""
 
 
+def remove_first_nonempty_line(body):
+    lines = body.splitlines(keepends=True)
+    for index, line in enumerate(lines):
+        if strip_markdown(line):
+            remaining = lines[:index] + lines[index + 1 :]
+            return "".join(remaining).lstrip("\r\n")
+    return body
+
+
 def make_title(body):
     title = first_nonempty_line(body)
     if not title:
@@ -103,7 +112,8 @@ def render_post(source_path, front_matter, body):
 
     year = date_value[:4]
     title = make_title(body)
-    summary = make_summary(body)
+    content_body = remove_first_nonempty_line(body)
+    summary = make_summary(content_body)
     output_front_matter = "\n".join(
         [
             "---",
@@ -118,7 +128,7 @@ def render_post(source_path, front_matter, body):
             "",
         ]
     )
-    return output_front_matter + body
+    return output_front_matter + content_body
 
 
 def iter_sources(args):
